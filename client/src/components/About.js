@@ -14,7 +14,7 @@ const About = ({ profile }) => {
   return (
     <section id="about" className="section">
       <div className="container">
-        <h2 className="section-title">About Me</h2>
+        <h2 className="section-title" style={{ fontFamily: 'Poppins, Montserrat, Inter, Arial, sans-serif', fontWeight: 700, color: '#ffb300', letterSpacing: '0.01em' }}>About Me</h2>
         <div className="card">
           <p style={{ fontSize: '1.15rem', marginBottom: '1.5rem', color: '#e0e0e0' }}>{profile.about}</p>
           <h3 style={{ marginBottom: '0.5rem', color: '#ffffff' }}>Skills</h3>

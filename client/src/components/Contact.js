@@ -36,7 +36,7 @@ const Contact = () => {
   return (
     <section id="contact" className="section">
       <div className="container">
-        <h2 className="section-title">Contact</h2>
+        <h2 className="section-title" style={{ fontFamily: 'Poppins, Montserrat, Inter, Arial, sans-serif', fontWeight: 700, color: '#ffb300', letterSpacing: '0.01em' }}>Contact</h2>
         <div className="card" style={{ maxWidth: 500, margin: '0 auto' }}>
           {submitted ? (
             <div style={{ textAlign: 'center', color: '#cccccc', fontWeight: 600, fontSize: '1.2rem' }}>

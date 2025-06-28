@@ -6,9 +6,7 @@ const Footer = ({ profile }) => (
       <div style={{ fontWeight: 500, fontSize: '1.1rem' }}>
         &copy; {new Date().getFullYear()} {profile?.name || 'Hannan Fareed'} &mdash; All Rights Reserved
       </div>
-      <div style={{ marginTop: 10, fontSize: '0.95rem', opacity: 0.8 }}>
-        Made with <span style={{ color: '#cccccc', fontWeight: 700 }}>React</span>
-      </div>
+      
     </div>
   </footer>
 );

@@ -5,7 +5,7 @@ const Projects = ({ projects }) => {
   return (
     <section id="projects" className="section">
       <div className="container">
-        <h2 className="section-title">Projects</h2>
+        <h2 className="section-title" style={{ fontFamily: 'Poppins, Montserrat, Inter, Arial, sans-serif', fontWeight: 700, color: '#ffb300', letterSpacing: '0.01em' }}>Projects</h2>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '30px', justifyContent: 'center' }}>
           {projects.map((project) => (
             <div className="card" key={project.id} style={{ width: '320px', minHeight: '420px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>

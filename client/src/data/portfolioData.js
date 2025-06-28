@@ -67,125 +67,120 @@ export const portfolioData = {
   education: [
     {
       id: 1,
-      institution: "University of Technology",
-      degree: "Master of Science",
+      institution: "Fast Nuces",
+      degree: "Bachelors of Science",
       field: "Computer Science",
-      startDate: "2020-09-01",
-      endDate: "2022-05-15",
-      cgpa: 3.8,
-      description: "Specialized in Machine Learning and Artificial Intelligence. Completed thesis on 'Deep Learning Applications in Natural Language Processing'.",
-      location: "New York, NY",
-      current: false
+      startDate: "2021-08-16",
+      endDate: "2025-05-17",
+      cgpa: 2.96,
+      description: "Specialized in Web Development,Machine Learning, Artificial Intelligence, Data Science, and Natural Language Processing.",
+      location: "Lahore",
+      current: false,
+      image: "/images/education/fast.jpg"
     },
     {
       id: 2,
-      institution: "State University",
-      degree: "Bachelor of Science",
+      institution: "Government College University",
+      degree: "Intermediate",
+      field: "FSc Pre-Engineering",
+      startDate: "2019-09-01",
+      endDate: "2021-05-15",
+      Marks: "1052/1100",
+      description: "Participated in speeches and multiple intercollegiate competitions, actively representing GCU in co-curricular events.",
+      location: "Lahore",
+      current: false,
+      image: "/images/education/gcu.jpg"
+    },
+    {
+      id: 3,
+      institution: "Allied School",
+      degree: "Matriculation",
       field: "Computer Science",
-      startDate: "2016-09-01",
-      endDate: "2020-05-15",
-      cgpa: 3.7,
-      description: "Graduated with honors. Active member of the Computer Science Club and participated in various hackathons.",
-      location: "Boston, MA",
-      current: false
+      startDate: "2017-03-01",
+      endDate: "2019-05-15",
+      Marks: "1060/1100",
+      description: "Actively represented my school in programming and math competitions, as well as speeches and other co-curricular events.",
+      location: "Lahore",
+      current: false,
+      image: "/images/education/allied.jpeg"
     }
   ],
   
   experience: [
     {
       id: 1,
-      title: "Senior Software Engineer",
-      company: "TechCorp Inc.",
-      location: "San Francisco, CA",
-      startDate: "2022-06-01",
-      endDate: null,
-      current: true,
-      description: "Leading development of scalable web applications using modern technologies. Mentoring junior developers and implementing best practices.",
-      technologies: ["React", "Node.js", "AWS", "Docker", "Kubernetes"],
+      title: "Core PHP Developer",
+      company: "Brains",
+      location: "Lahore, Punjab",
+      startDate: "2023-05-12",
+      endDate: "2023-07-12",
+      current: false,
+      description: "Leading development of scalable web applications using modern technologies.",
+      technologies: ["Html", "CSS", "Javascript", "Bootstrap", "JQuery","PHP","MySQL"],
       achievements: [
         "Reduced application load time by 40%",
         "Led team of 5 developers",
         "Implemented CI/CD pipeline"
       ]
-    },
-    {
-      id: 2,
-      title: "Full Stack Developer",
-      company: "StartupXYZ",
-      location: "New York, NY",
-      startDate: "2020-06-01",
-      endDate: "2022-05-31",
-      current: false,
-      description: "Developed and maintained multiple web applications. Worked closely with product managers and designers to deliver high-quality software.",
-      technologies: ["React", "Node.js", "MongoDB", "Express", "TypeScript"],
-      achievements: [
-        "Built 3 major features from scratch",
-        "Improved code quality by 25%",
-        "Reduced bugs by 30%"
-      ]
-    },
-    {
-      id: 3,
-      title: "Software Developer Intern",
-      company: "BigTech Company",
-      location: "Seattle, WA",
-      startDate: "2019-06-01",
-      endDate: "2019-08-31",
-      current: false,
-      description: "Worked on internal tools and automation scripts. Gained experience with large-scale software development practices.",
-      technologies: ["Python", "JavaScript", "SQL", "Git"],
-      achievements: [
-        "Automated 5 manual processes",
-        "Fixed 15+ bugs",
-        "Received excellent performance review"
-      ]
     }
+    
   ],
   
   certifications: [
     {
       id: 1,
-      name: "AWS Certified Solutions Architect",
-      issuer: "Amazon Web Services",
-      issueDate: "2023-03-15",
-      expiryDate: "2026-03-15",
-      credentialId: "AWS-123456",
-      credentialUrl: "https://aws.amazon.com/verification",
-      image: "/images/certifications/aws.png",
-      description: "Demonstrates expertise in designing distributed systems on AWS."
+      name: "Core PHP Developer",
+      issuer: "BRAINS Institute",
+      issueDate: "2023-12-07",
+      expiryDate: "",
+      credentialId: "BIT-59411/00002374/7/12/2023",
+      credentialUrl: "/images/certifications/Hannan.jpg",
+      image: "/images/certifications/Hannan.jpg",
+      description: "Successfully completed a 4-month workshop covering HTML, CSS, JavaScript, jQuery, Bootstrap, WordPress, PHP & MySQL."
     },
     {
       id: 2,
-      name: "Google Cloud Professional Developer",
-      issuer: "Google Cloud",
-      issueDate: "2022-11-20",
-      expiryDate: "2025-11-20",
-      credentialId: "GCP-789012",
-      credentialUrl: "https://cloud.google.com/certification",
-      image: "/images/certifications/gcp.png",
-      description: "Validates ability to build and deploy applications on Google Cloud Platform."
+      name: "Introduction to Microsoft SQL Management Server",
+      issuer: "Microsoft Learn Student Ambassadors",
+      issueDate: "2023-10-01",
+      expiryDate: "",
+      credentialId: "MSA-SQL-2023",
+      credentialUrl: "/documents/Hannan Fareed.pdf",
+      image: "/images/certifications/Microsoft.png",
+      description: "Awarded for attending and completing the workshop on Introduction to Microsoft SQL Management Server."
     },
     {
       id: 3,
-      name: "Microsoft Certified: Azure Developer Associate",
+      name: "ASP.NET API Developer",
       issuer: "Microsoft",
-      issueDate: "2022-08-10",
-      expiryDate: "2025-08-10",
-      credentialId: "AZURE-345678",
-      credentialUrl: "https://www.microsoft.com/en-us/learning",
-      image: "/images/certifications/azure.png",
-      description: "Proves skills in developing, testing, and maintaining cloud applications on Azure."
+      issueDate: "2025-06-28",
+      expiryDate: "",
+      credentialId: "MSA-AMB-2023",
+      credentialUrl: "/images/certifications/aspNet.PNG",
+      image: "/images/certifications/aspNet.PNG",
+      description: "Completed Microsoft Learn module on building RESTful APIs with ASP.NET Core, covering controller creation, routing, and service injection through hands-on projects."
     },
     {
       id: 4,
-      name: "Certified Scrum Master (CSM)",
-      issuer: "Scrum Alliance",
-      issueDate: "2021-12-05",
-      expiryDate: "2024-12-05",
-      credentialId: "CSM-901234",
-      credentialUrl: "https://www.scrumalliance.org",
-      image: "/images/certifications/csm.png",
-      description: "Demonstrates understanding of Scrum framework and agile methodologies."
+      name: "Introduction to C#",
+      issuer: "Sololearn | Collaboration with Google",
+      issueDate: "2025-06-28",
+      expiryDate: "",
+      credentialId: "CSHARP-2025",
+      credentialUrl: "/images/certifications/Csharp.jpg",
+      image: "/images/certifications/Csharp.jpg",
+      description: "Completed a comprehensive course on C# programming, covering object-oriented concepts, .NET framework, and application development."
+    },
+    {
+      id: 5,
+      name: "Angular Development",
+      issuer: "Sololearn | Collaboration with Google",
+      issueDate: "2025-06-28",
+      expiryDate: "",
+      credentialId: "ANGULAR-2025",
+      credentialUrl: "/images/certifications/Angular.jpg",
+      image: "/images/certifications/Angular.jpg",
+      description: "Completed a hands-on course on Angular, focusing on building dynamic web applications, components, and services."
     }
   ]
 }; 
