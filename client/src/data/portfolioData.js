@@ -9,8 +9,8 @@ export const portfolioData = {
     linkedin: "https://www.linkedin.com/in/hannan-fareed-22b660247/",
     github: "https://github.com/Hannan-10",
     cv: "/documents/cv.pdf",
-    university: "FAST NUCES",
-    dateOfBirth: "2004-01-25",
+    university:"FAST NUCES",
+    dateOfBirth:"2004-01-25",
     cgpa: 2.96,
     about: "Proactive Computer Science student in the final year, with experience in software development, full-stack engineering, and system design. Proven ability to tackle challenges and adapt to new technologies in dynamic environments. Passionate about continuous learning and using technical expertise to solve practical problems.",
     location: "Davis Road, Lahore",
@@ -24,43 +24,110 @@ export const portfolioData = {
   projects: [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.",
-      image: "/images/projects/ecommerce.jpg",
-      technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-      githubLink: "https://github.com/hannanfareed/ecommerce",
-      liveLink: "https://ecommerce-demo.com",
-      featured: true
+      title: "Virtuel Elegance (Final Year Project)",
+      description: "Engineered a mobile and web app using React Native and FERN stack, enabling users to virtually try on outfits based on real-time body data. Integrated pose estimation through OpenCV and MediaPipe for accurate measurements from live camera input. Implemented 3D clothing visualization using Unity for realistic virtual try-on experience.",
+      technologies: ["Python", "OpenCV", "MediaPipe", "OpenPose", "ReactJS", "React Native", "NodeJS", "Firebase","Flask"],
+      githubLink: "https://github.com/hannanfareed/virtuel-elegance",
+      liveLink: "https://virtuel-elegance-demo.com",
+      featured: true,
+      startDate: "2024-08-01",
+      endDate: "2025-05-01"
     },
     {
       id: 2,
-      title: "AI Chatbot",
-      description: "An intelligent chatbot powered by machine learning algorithms. Can understand natural language and provide helpful responses for customer service.",
+      title: "Chatbot for Healthcare Queries (Healthcare AI)",
+      description: "Designed and implemented an advanced NLP-based chatbot utilizing Retrieval-Augmented Generation (RAG) to deliver precise and trustworthy medical responses. Seamlessly integrated document retrieval with context-aware generation, ensuring highly accurate and contextually relevant healthcare guidance for users.",
       image: "/images/projects/chatbot.jpg",
-      technologies: ["Python", "TensorFlow", "NLP", "Flask", "React"],
-      githubLink: "https://github.com/hannanfareed/ai-chatbot",
-      liveLink: "https://chatbot-demo.com",
-      featured: true
+      technologies: ["Python", "spaCY", "NLTK", "Flask", "React"],
+      githubLink: "https://github.com/hannanfareed/healthcare-chatbot",
+      liveLink: "https://healthcare-chatbot-demo.com",
+      featured: false,
+      startDate: "2025-01-01",
+      endDate: "2025-05-01"
     },
     {
       id: 3,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, team collaboration, and progress tracking features.",
+      title: "GameBaazi (Online GameStore)",
+      description: "Built a full-stack MERN platform for digital game and accessory sales with secure transactions and personalized user dashboards. Integrated real-time order tracking and seamless delivery system for both digital downloads and physical products.",
       image: "/images/projects/taskapp.jpg",
-      technologies: ["React", "Firebase", "Material-UI", "Redux"],
-      githubLink: "https://github.com/hannanfareed/task-manager",
-      liveLink: "https://taskapp-demo.com",
-      featured: false
+      technologies: ["ReactJS", "MongoDB", "ExpressJS", "NodeJS"],
+      githubLink: "https://github.com/hannanfareed/gamebaazi",
+      liveLink: "https://gamebaazi-demo.com",
+      featured: false,
+      startDate: "2024-01-01",
+      endDate: "2024-05-01"
     },
     {
       id: 4,
-      title: "Weather Dashboard",
-      description: "A beautiful weather dashboard that displays current weather and forecasts using multiple weather APIs and interactive charts.",
+      title: "Cricket Bazaar (Cricket Analytics Platform)",
+      description: "Developed predictive models using regression and classification to estimate IPL auction prices based on historical player data. Integrated the models into a responsive web app for interactive visualization and exploration of player insights and auction trends.",
       image: "/images/projects/weather.jpg",
-      technologies: ["React", "Chart.js", "Weather API", "CSS3"],
-      githubLink: "https://github.com/hannanfareed/weather-dashboard",
-      liveLink: "https://weather-demo.com",
-      featured: false
+      technologies: ["Python","Flask", "HTML", "CSS", "Bootstrap"],
+      githubLink: "https://github.com/hannanfareed/cricket-bazaar",
+      liveLink: "https://cricket-bazaar-demo.com",
+      featured: false,
+      startDate: "2023-09-01",
+      endDate: "2024-01-01"
+    },
+    {
+      id: 5,
+      title: "Bijlee Sense (Energy Consumption Analysis)",
+      description: "Built a predictive energy management system using Linear Regression and Neural Networks to forecast consumption patterns. Implemented data preprocessing, clustering, and interactive visualizations for data-driven energy optimization.",
+      image: "/images/projects/energy.jpg",
+      technologies: ["Python", "HTML", "CSS", "Github"],
+      githubLink: "https://github.com/hannanfareed/energy-analysis",
+      liveLink: "https://energy-analysis-demo.com",
+      featured: false,
+      startDate: "2022-08-01",
+      endDate: "2022-12-01"
+    },
+    {
+      id: 6,
+      title: "Edit Pixel (Image Editor Mobile App)",
+      description: "Developed a mobile image editor app using Kotlin and Jetpack Compose. Included features like real-time filters, cropping, and enhancement tools. Focused on responsive UI and smooth performance for an intuitive user experience.",
+      image: "/images/projects/image-editor.jpg",
+      technologies: ["Kotlin", "Jetpack Compose", "Jira","Github","Figma"],
+      githubLink: "https://github.com/hannanfareed/image-editor",
+      liveLink: "https://play.google.com/store/apps/details?id=com.hannanfareed.imageeditor",
+      featured: false,
+      startDate: "2023-01-01",
+      endDate: "2023-12-01"
+    },
+    {
+      id: 7,
+      title: "Speedify (Courier Management System - CMS)",
+      description: "Developed a desktop-based Courier Management System in Java using NetBeans to automate parcel delivery operations. Built core modules for user management, parcel booking/tracking, and admin reporting to optimize logistics workflows. Integrated delivery scheduling, inventory handling, and secure user authentication for a scalable and efficient system.",
+      image: "/images/projects/courier.jpg",
+      technologies: ["Java", "NetBeans", "MySQL", "Swing", "JDBC", "GitHub"],
+      githubLink: "https://github.com/hannanfareed/speedify-cms",
+      liveLink: "",
+      featured: false,
+      startDate: "2022-06-01",
+      endDate: "2022-08-01"
+    },
+    {
+      id: 8,
+      title: "JPEG Compression System (Digital Image Processing Project)",
+      description: "Developed a JPEG image compression system for grayscale images using Python and NumPy. Implemented encoding and decoding with DCT, quantization, and zig-zag scanning to achieve compression. Visualized each stage of the process using Matplotlib to demonstrate effectiveness and accuracy of reconstruction.",
+      image: "/images/projects/jpeg-compression.jpg",
+      technologies: ["Python", "NumPy", "SciPy", "PIL", "Matplotlib", "Jupyter Notebook", "GitHub"],
+      githubLink: "https://github.com/hannanfareed/jpeg-compression",
+      liveLink: "",
+      featured: false,
+      startDate: "2022-03-01",
+      endDate: "2022-05-01"
+    },
+    {
+      id: 9,
+      title: "TechHaveli (E-commerce Application)",
+      description: "Built a full-stack e-commerce platform using MERN stack for online electronics and gadgets sales. Implemented user authentication, product catalog, shopping cart, payment integration, and order management system. Developed responsive UI with real-time inventory tracking and secure payment processing for seamless shopping experience.",
+      image: "/images/projects/techhaveli.jpg",
+      technologies: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Redux", "GitHub"],
+      githubLink: "https://github.com/hannanfareed/techhaveli",
+      liveLink: "",
+      featured: false,
+      startDate: "2023-08-01",
+      endDate: "2023-12-01"
     }
   ],
   
@@ -118,9 +185,9 @@ export const portfolioData = {
       description: "Leading development of scalable web applications using modern technologies.",
       technologies: ["Html", "CSS", "Javascript", "Bootstrap", "JQuery","PHP","MySQL"],
       achievements: [
-        "Reduced application load time by 40%",
-        "Led team of 5 developers",
-        "Implemented CI/CD pipeline"
+        "Refactored PHP and jQuery code for better performance and maintainability.",
+        "Improved mobile responsiveness with Bootstrap and JavaScript.",
+        "Optimized MySQL queries for faster data retrieval and lower server load."
       ]
     }
     

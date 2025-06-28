@@ -77,6 +77,12 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.hero-name span {
+  font-size: 2.1rem !important;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
 .hero-title {
   font-size: 1.8rem;
   font-weight: 400;
@@ -98,6 +104,13 @@
 .detail-item strong {
   color: #cccccc;
   margin-right: 10px;
+}
+
+.detail-item-value {
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Poppins', 'Montserrat', 'Inter', Arial, sans-serif;
+  letter-spacing: 0.2px;
 }
 
 .contact-links {
@@ -140,9 +153,25 @@
 }
 
 .hero-actions .btn {
-  padding: 15px 30px;
-  font-size: 1.1rem;
+  padding: 10px 22px;
+  font-size: 1rem;
   font-weight: 600;
+  border-radius: 32px;
+  border: 2px solid #cccccc;
+  background: transparent;
+  color: #fff;
+  box-shadow: none;
+  transition: all 0.2s;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.hero-actions .btn:hover {
+  background: #222;
+  color: #ffb300;
+  border-color: #ffb300;
+  transform: translateY(-2px) scale(1.04);
 }
 
 @media (max-width: 768px) {

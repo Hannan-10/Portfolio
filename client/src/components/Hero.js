@@ -58,21 +58,29 @@ const Hero = ({ profile }) => {
                   حنان فرید
                 </span>
               </h1>
-              <h2 className="hero-title">{profile.title}</h2>
+              <h2 className="hero-title" style={{
+                fontFamily: 'Times New Roman, Times, serif',
+                fontStyle: 'italic',
+                color: '#ffb300',
+                fontWeight: 600,
+                fontSize: '2rem',
+                margin: '8px 0 18px 0',
+                textShadow: '0 2px 8px rgba(0,0,0,0.18)'
+              }}>{profile.title}</h2>
               
               <div className="profile-details">
                 <div className="detail-item">
-                  <strong>University:</strong> {profile.university}
+                  <strong>University:</strong> <span className="detail-item-value">{profile.university}</span>
                 </div>
                 <div className="detail-item">
-                  <strong>CGPA:</strong> {profile.cgpa}
+                  <strong>CGPA:</strong> <span className="detail-item-value">{profile.cgpa}</span>
                 </div>
                 <div className="detail-item">
-                  <strong>Date of Birth:</strong> {formatDate(profile.dateOfBirth)}
+                  <strong>Date of Birth:</strong> <span className="detail-item-value">{formatDate(profile.dateOfBirth)}</span>
                 </div>
                 {profile.location && (
                   <div className="detail-item">
-                    <strong>Location:</strong> {profile.location}
+                    <strong>Location:</strong> <span className="detail-item-value">{profile.location}</span>
                   </div>
                 )}
               </div>

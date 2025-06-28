@@ -74,6 +74,16 @@
   width: 100%;
 }
 
+.nav-link.active {
+  color: #ffb300;
+  font-weight: 700;
+}
+
+.nav-link.active::after {
+  width: 100%;
+  background: linear-gradient(90deg, #ffb300 0%, #ff9800 100%);
+}
+
 .mobile-menu-btn {
   display: none;
   background: none;

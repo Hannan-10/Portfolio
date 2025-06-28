@@ -51,6 +51,8 @@ const Header = () => {
                     to={item.to}
                     smooth={true}
                     duration={500}
+                    spy={true}
+                    activeClass="active"
                     onClick={closeMenu}
                     className="nav-link"
                   >
