@@ -24,6 +24,8 @@
 }
 
 .logo {
+  display: flex;
+  align-items: center;
   font-size: 1.8rem;
   font-weight: 700;
   color: #cccccc;
@@ -36,6 +38,29 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.logo-urdu {
+  font-family: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', serif;
+  color: #ffb300 !important;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 10px;
+  vertical-align: middle;
+  letter-spacing: 0;
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  -webkit-text-fill-color: #ffb300 !important;
+  background-clip: initial !important;
+  display: inline-block;
+  padding-top: 2px;
+}
+
+.logo span.logo-urdu {
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  -webkit-text-fill-color: #ffb300 !important;
+  color: #ffb300 !important;
 }
 
 .nav-list {
@@ -101,7 +126,7 @@
 @media (max-width: 768px) {
   .nav {
     position: fixed;
-    top: 100%;
+    top: 60px;
     left: 0;
     right: 0;
     background: rgba(26, 26, 26, 0.98);
@@ -111,6 +136,7 @@
     visibility: hidden;
     transition: all 0.3s ease;
     border-top: 1px solid #333333;
+    z-index: 2000;
   }
 
   .nav.nav-open {
@@ -141,5 +167,18 @@
 
   .mobile-menu-btn {
     display: block;
+  }
+}
+
+@media (max-width: 900px) {
+  .card {
+    max-width: 48% !important;
+    min-width: 220px !important;
+  }
+}
+@media (max-width: 600px) {
+  .card {
+    max-width: 100% !important;
+    min-width: 0 !important;
   }
 } 

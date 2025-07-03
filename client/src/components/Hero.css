@@ -77,18 +77,27 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.hero-name span {
+.hero-name-row {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.hero-name-urdu {
   font-size: 2.1rem !important;
   font-weight: 700;
+  margin-left: 12px;
   vertical-align: middle;
 }
 
 .hero-title {
-  font-size: 1.8rem;
-  font-weight: 400;
-  margin-bottom: 30px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 0.2em;
+  margin-bottom: 0.7em;
   opacity: 0.9;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 
 .profile-details {
@@ -177,21 +186,38 @@
 @media (max-width: 768px) {
   .profile-section {
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     gap: 30px;
   }
-
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto 0 18vw;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+  }
+  .profile-details {
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+  }
+  .detail-item {
+    justify-content: flex-start;
+    text-align: left;
+  }
   .profile-image {
     width: 200px;
     height: 200px;
   }
 
   .hero-name {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .hero-title {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 
   .contact-links {
@@ -206,15 +232,23 @@
     padding: 12px 25px;
     font-size: 1rem;
   }
+
+  .hero-name-row {
+    font-size: 1em;
+  }
+  .hero-name-urdu {
+    font-size: 0.8rem !important;
+    margin-left: 4px;
+  }
 }
 
 @media (max-width: 480px) {
   .hero-name {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 
   .hero-title {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
 
   .profile-image {
@@ -239,5 +273,26 @@
 
   .hero-actions .btn {
     width: 200px;
+  }
+
+  .hero-name-row {
+    font-size: 0.8em;
+  }
+  .hero-name-urdu {
+    font-size: 0.65rem !important;
+    margin-left: 2px;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile-details {
+    max-width: 100%;
+  }
+  .detail-item strong {
+    min-width: 90px;
+    font-size: 1em;
+  }
+  .detail-item {
+    font-size: 1em;
   }
 } 

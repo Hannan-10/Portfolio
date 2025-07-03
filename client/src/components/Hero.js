@@ -48,22 +48,12 @@ const Hero = ({ profile }) => {
             <div className="profile-info">
               <h1 className="hero-name">
                 {profile.name}
-                <span style={{
-                  fontFamily: "'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', serif",
-                  fontSize: '1.5rem',
-                  color: '#FFA500',
-                  marginLeft: 12,
-                  verticalAlign: 'middle'
-                }}>
-                  حنان فرید
-                </span>
               </h1>
               <h2 className="hero-title" style={{
                 fontFamily: 'Times New Roman, Times, serif',
                 fontStyle: 'italic',
                 color: '#ffb300',
                 fontWeight: 600,
-                fontSize: '2rem',
                 margin: '8px 0 18px 0',
                 textShadow: '0 2px 8px rgba(0,0,0,0.18)'
               }}>{profile.title}</h2>

@@ -41,6 +41,16 @@ const Header = () => {
         <div className="header-content">
           <Link to="home" className="logo" smooth={true} duration={500}>
             <span>HF</span>
+            <span className="logo-urdu" style={{
+              fontFamily: "'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', serif",
+              color: '#FFA500',
+              fontSize: '1.2rem',
+              marginLeft: 8,
+              verticalAlign: 'middle',
+              letterSpacing: 0
+            }}>
+              حنان فرید
+            </span>
           </Link>
 
           <nav className={`nav ${isOpen ? 'nav-open' : ''}`}>
@@ -72,4 +82,4 @@ const Header = () => {
   );
 };
 
-export default Header; 
+export default Header;

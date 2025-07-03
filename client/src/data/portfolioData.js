@@ -31,7 +31,8 @@ export const portfolioData = {
       liveLink: "https://virtuel-elegance-demo.com",
       featured: true,
       startDate: "2024-08-01",
-      endDate: "2025-05-01"
+      endDate: "2025-05-01",
+      image: "/images/projects/FYP.jpeg"
     },
     {
       id: 2,
