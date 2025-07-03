@@ -214,7 +214,7 @@ export const portfolioData = {
       expiryDate: "",
       credentialId: "MSA-SQL-2023",
       credentialUrl: "/documents/Hannan Fareed.pdf",
-      image: "/images/certifications/Microsoft.png",
+      image: "/images/certifications/Microsoft.PNG",
       description: "Awarded for attending and completing the workshop on Introduction to Microsoft SQL Management Server."
     },
     {
